@@ -1,14 +1,25 @@
 {
-  "name": "Static1",
-  "version": "1.0.0",
-  "description": "",
+  "name": "QuizShow",
+  "version": "0.1.2",
+  "description": "A sample Node.js app using Express 4",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node index.js"
   },
-  "author": "",
-  "license": "ISC",
   "dependencies": {
-    "express": "^4.12.3"
-  }
+    "express": "~4.9.x"
+  },
+  "engines": {
+    "node": "0.10.x"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/VikSabo/QuizShow"
+  },
+  "keywords": [
+    "node",
+    "heroku",
+    "express"
+  ],
+  "license": "MIT"
 }
